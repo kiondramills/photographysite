@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+
+.navy {
+	text-transform: uppercase;
+	line-height: 95px;
+	padding: 17px 30px;
+	padding-bottom: 10px;
+	transition: .3s;
+
+	
+}
+
+li a:hover{
+	color: #59486b;
+	text-decoration: none;
+
+}
+
+
+
+nav {
+	margin-bottom: 0px;
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	margin-top: 0px;
+	height: 100px;
+
+}
+
+
+
+label{
+	color: white;
+}
+
+
+
+.nav-wrapper{
+	height: 80px;
+}
+
+.mylogo {
+	font-family: 'Sacramento', cursive;
+	font-size: 50px;
+	margin-left: 0;
+	line-height: 125px;
+	
+}
+
+#logo:hover{
+	text-decoration: none;
+	
+}
+
+.nsLogo{
+	font-family: 'Sacramento', cursive;
+	font-size: 50px;
+	margin-left: 0;
+	line-height: 80px;
+}
+
+/*.hire{
+	border: 2px solid white;
+	background-color: transparent;
+	margin-top: 18%;
+	transition: .3s;
+}*/
+
+.main-top{
+	height: 100vh;
+	background-image: url('https://images.unsplash.com/photo-1516913840875-366de3e463bd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=be881d954f17c51a868fa0d2e0a5b707&auto=format&fit=crop&w=750&q=80');
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center center;
+ 	background-attachment: fixed;
+  
+ 	
+}
+
+
+#about{
+	height: 100vh;
+	background-image: url('https://images.unsplash.com/photo-1495580621852-5de0cc907d2f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=437f4603c2aa71f046609470d4489ea0&auto=format&fit=crop&w=465&q=80');
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: top top;
+ 	background-attachment: fixed;
+ 	color: white;
+ 	padding-top: 10%;
+ 	font-size: 15px;
+}
+
+#mygallery{
+	padding-top: 50px;
+}
+
+#services{
+	padding-top: 30px;
+}
+
+#contact{
+	height: 100vh;
+	background-image: url('https://images.unsplash.com/photo-1506478183148-0832f6532395?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bb71ae9a0b8f4f1a3da67583dd0a7b55&auto=format&fit=crop&w=749&q=80');
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: top top;
+ 	background-attachment: fixed;
+ 	color: white;
+ 	padding-top: 60px;
+ 	font-size: 15px;
+ 	
+}
+
+.info{
+	color: white;
+	font-size: 30px;
+	padding-top: 150px;
+	padding-bottom: 50px;
+	margin-top: 10%;
+	
+}
+
+.info:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.jumbotron{ 
+	padding-top: 7%;
+	background-color: transparent;
+	color: white;
+	font-family: 'Shadows Into Light', cursive;
+
+}
+
+#learnBtn:hover{
+
+	background-color: #59486b;
+}
+
+.icon{
+	color: #59486b;
+	font-size: 60px;
+}
+
+#services{
+	padding: 3%;
+	height: 100%;
+}
+
+.wedding{
+	background-image: url('newlyweds.png');
+
+}
+
+.row .box{
+	display: flex;
+	flex-flow: row wrap;
+
+}
+
+
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+	flex: auto ;
+	padding: auto;
+	background-color: grey;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3%;
+	height: 350px;
+	width: 350px;
+	text-align: center;
+}
+
+.box1{
+	background-image: url('https://images.unsplash.com/photo-1478124558530-12ebfad45487?ixlib=rb-0.3.5&s=b940f3e21074a925c8a97121b017e916&auto=format&fit=crop&w=500&q=60');
+	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center center;
+ 	
+}
+
+
+
+.box2{
+	background-image: url('https://images.unsplash.com/photo-1518989033255-4641f7d910cb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c07ccccee5fb80184a963480659744a4&auto=format&fit=crop&w=500&q=60');
+	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center center;
+ 	
+}
+
+.box3{
+	background-image: url('https://images.unsplash.com/photo-1504376379689-8d54347b26c6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d2b2a5e442176ddc197029ee84e31607&auto=format&fit=crop&w=500&q=60');
+	background-size: 100%;
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+ 	
+}	
+
+.box4{
+	background-image: url('https://images.unsplash.com/photo-1518049305062-40204a94b288?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=beae8f5a30e52d11b78203b5281fe402&auto=format&fit=crop&w=500&q=60');
+	background-size: 100%;
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+
+}
+
+.box5{
+	background-image: url('https://images.unsplash.com/photo-1455758190477-ac7265bc8139?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2d490050bdcce5c69ef1a8d236cbbbab&auto=format&fit=crop&w=500&q=60');
+	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center center;
+
+}
+
+.box6{
+	background-image: url('https://images.unsplash.com/photo-1485400775732-c264026faba5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=35f89c0b0fb1dd97a3b0b8ed91b57b1c&auto=format&fit=crop&w=500&q=60');
+	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center center;
+ 	
+}
+
+#footer1, #footer2, #footer3{
+	background-color: #59486b;
+}
